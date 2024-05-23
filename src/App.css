@@ -14,6 +14,10 @@ html {
   padding: 0;
 }
 
+.route {
+  margin-top: 100px;
+}
+
 body {
   color: #333;
   background: #fff;
@@ -22,6 +26,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
+}
+.pad-top {
+  margin-top: 80px;
+}
+
+.pad-top2 {
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 img {
@@ -455,6 +467,13 @@ textarea {
   text-align: center;
 }
 
+/* #footed {
+  background: #f64b4b;
+  padding: 50px 0;
+  color: #fff;
+  text-align: center;
+} */
+
 #footer .copyright {
   margin: 0 0 15px;
 }
@@ -693,6 +712,10 @@ textarea {
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+.blue{
+  color: blue !important;
 }
 
 .testimonials-block .container-fluid {
@@ -1020,6 +1043,10 @@ textarea {
 
   .works-block .portfoliolist>div .label {
     height: 50px;
+  }
+
+  .pad-down {
+    margin-bottom: 200px;
   }
 }
 

@@ -25,9 +25,9 @@ var heroData = [
     }
   ]
 
-function Hero() {
+function HeroWithRoutes() {
     return (
-        <section className='hero-block'>
+        <section className='hero-block pad-down pad-top'>
             <Carousel>
                 {
                     heroData.map(hero => {
@@ -52,4 +52,4 @@ function Hero() {
     )
 }
 
-export default Hero
+export default HeroWithRoutes

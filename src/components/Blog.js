@@ -30,7 +30,7 @@ const blogData = [
   
 function Blog() {
     return (
-       <section>
+       <section id='blog' className='block blog-block'>
             <Container fluid>
                 <div className='title-holder'>
                     <h2>Latest from Blog</h2>
